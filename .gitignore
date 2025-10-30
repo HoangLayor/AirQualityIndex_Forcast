@@ -1,0 +1,95 @@
+// ...existing code...
+# Byte-compiled / build
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+venv*/
+.env
+
+# Editor / IDE
+.vscode/
+.idea/
+*.iml
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / reports / coverage
+*.log
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Python packaging / distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# Data files (raw / large)
+data/
+raw_data/
+*.csv
+*.parquet
+*.db
+*.sqlite
+
+# Model artifacts / checkpoints / TF events
+*.h5
+*.hdf5
+*.tflite
+*.pb
+*.save
+checkpoint
+checkpoints/
+events.out.tfevents.*
+saved_model/
+gru_saved_model/
+tinyml_gru_model.h5
+gru_model.tflite
+gru_float32_model.zip
+*.zip
+
+# Serialization / caches
+*.pkl
+*.joblib
+*.sav
+*.npz
+
+# TensorFlow / Keras training outputs
+training/
+tf_model/
+*.ckpt
+model.ckpt*
+
+# Edge Impulse / deploy artifacts
+deploy_*.zip
+edge_impulse_*
+ei_*.zip
+
+# Other
+*.exe
+*.dll
+*.so
+*.class
+
+# Keep this file tracked
+!.gitignore
