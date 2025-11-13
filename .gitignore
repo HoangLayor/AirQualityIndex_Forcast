@@ -53,20 +53,20 @@ raw_data/
 *.sqlite
 
 # Model artifacts / checkpoints / TF events
-*.h5
-*.hdf5
-*.tflite
-*.pb
-*.save
-checkpoint
-checkpoints/
-events.out.tfevents.*
-saved_model/
-gru_saved_model/
-tinyml_gru_model.h5
-gru_model.tflite
-gru_float32_model.zip
-*.zip
+# *.h5
+# *.hdf5
+# *.tflite
+# *.pb
+# *.save
+# checkpoint
+# checkpoints/
+# events.out.tfevents.*
+# saved_model/
+# gru_saved_model/
+# tinyml_gru_model.h5
+# gru_model.tflite
+# gru_float32_model.zip
+# *.zip
 
 # Serialization / caches
 *.pkl
